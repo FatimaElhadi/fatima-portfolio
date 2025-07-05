@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Fatima Elhadi | UI Designer</title>
+  <title>FATIMA YOUSIF  mm | UI Designer</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -88,7 +88,7 @@
   <div class="container">
     <header>
       <div>
-        <h1>Fatima Elhadi</h1>
+        <h1>FATIMA YOUSIF</h1>
         <p>UI Designer</p>
       </div>
       <img src="https://via.placeholder.com/120" alt="Fatima Elhadi" />
