@@ -1,9 +1,8 @@
-# fatima-portfolio
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Fatima Elhadi | UI Designer</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -58,12 +57,54 @@
     .skills-icons img {
       width: 40px;
     }
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
     .project {
       background: #f5f5f5;
       padding: 15px;
       border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      flex: 1 1 280px;
+      max-width: 320px;
+    }
+    .project img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .projects-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Fatima Elhadi</h1>
+        <p>UI Designer</p>
+      </div>
+      <img src="https://via.placeholder.com/120" alt="Fatima Elhadi" />
+    </header>
+
+    <section class="about-me">
+      <p>
+        I am a UI designer with 5+ years of experience, working on health, e-commerce,
+        and financial applications. Proficient in Figma and Photoshop, I focus on
+        crafting engaging and modern user experiences. I have projects featured on
+        Behance and currently work as a freelancer.
+      </p>
+    </section>
+
+    <h2>Skills</h2>
+    <div class="skills-icons">
+      <div>✔️ UI Design</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" title="Figma" />
+      <img src="https://upload.wikime
